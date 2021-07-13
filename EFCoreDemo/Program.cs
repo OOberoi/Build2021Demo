@@ -18,7 +18,7 @@ namespace EFCoreDemo
     {
         public int MovieId { get; set; }
         public string Name { get; set; }
-        //public List <Genre> Genres { get; set; }
+        public List <Genre> Genres { get; set; }
     }
 
    
