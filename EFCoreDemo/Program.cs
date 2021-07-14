@@ -10,15 +10,15 @@ namespace EFCoreDemo
             using var ctx = new ManyToManyDbContext();
             ctx.Database.EnsureCreated();
 
-            var comedy = new Genre() { GenreId = 1, GnereName = "Comedy" };
-            var action = new Genre() { GenreId = 2, GnereName = "Action" };
-            var horror = new Genre() { GenreId = 3, GnereName = "Horror" };
-            var drama = new Genre() { GenreId = 4, GnereName = "Drama" };
+            var comedy = new Genre() { GnereName = "Comedy" };
+            var action = new Genre() { GnereName = "Action" };
+            var horror = new Genre() { GnereName = "Horror" };
+            var drama = new Genre() { GnereName = "Drama" };
 
             ctx.AddRange(
-                new Movie() { MovieId = 1, Name = "Shaw Shank Redemption", Genres = new List<Genre>() { action, comedy } },
-                        new Movie { MovieId = 2, Name = "Insidious", Genres = new List<Genre>() { horror } },
-                        new Movie { MovieId = 3, Name = "Forest Gump", Genres = new List<Genre>() { drama } });
+                new Movie() { Name = "Shaw Shank Redemption", Genres = new List<Genre>() { action, comedy } },
+                        new Movie { Name = "Insidious", Genres = new List<Genre>() { horror } },
+                        new Movie { Name = "Forest Gump", Genres = new List<Genre>() { drama } });
             ctx.SaveChanges();
         }
     }
