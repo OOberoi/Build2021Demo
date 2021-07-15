@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace EFCoreDemo
 {
@@ -15,6 +16,8 @@ namespace EFCoreDemo
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("server=obi-oberoi; database=demo.Build2021; trusted_connection=true;");
+            optionsBuilder.LogTo(Console.WriteLine, LogLevel.Information);
+            optionsBuilder.LogTo(Console.WriteLine, new[] {DbLoggerCategory.Database.Name}, LogLevel.Information);
         }
     }
 }
