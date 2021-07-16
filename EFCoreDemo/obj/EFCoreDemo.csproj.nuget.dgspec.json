@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oober\\source\\repos\\EFCore\\MS Build 2021 Highlights\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj": {}
+    "C:\\Users\\oober\\source\\repos\\Console Apps\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oober\\source\\repos\\EFCore\\MS Build 2021 Highlights\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj": {
+    "C:\\Users\\oober\\source\\repos\\Console Apps\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oober\\source\\repos\\EFCore\\MS Build 2021 Highlights\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj",
+        "projectUniqueName": "C:\\Users\\oober\\source\\repos\\Console Apps\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj",
         "projectName": "EFCoreDemo",
-        "projectPath": "C:\\Users\\oober\\source\\repos\\EFCore\\MS Build 2021 Highlights\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj",
+        "projectPath": "C:\\Users\\oober\\source\\repos\\Console Apps\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj",
         "packagesPath": "C:\\Users\\oober\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oober\\source\\repos\\EFCore\\MS Build 2021 Highlights\\Build2021Demo\\EFCoreDemo\\obj\\",
+        "outputPath": "C:\\Users\\oober\\source\\repos\\Console Apps\\Build2021Demo\\EFCoreDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\oober\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -73,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }
