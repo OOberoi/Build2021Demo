@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreDemo", "EFCoreDemo.csproj", "{EED7009C-6FEC-4704-AD1D-F869AEA1987C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPT", "..\TPT\TPT.csproj", "{AB12F194-F799-4D62-865B-FDF9979D2917}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPH", "..\TPT\TPH.csproj", "{AB12F194-F799-4D62-865B-FDF9979D2917}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
