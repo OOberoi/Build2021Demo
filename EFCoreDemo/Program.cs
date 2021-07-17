@@ -33,7 +33,7 @@ namespace EFCoreDemo
     public class Genre
     {
         public int GenreId { get; set; }
-        public string GnereName { get; set; }
+        public string GnereName { get; set; }        
         public List<Movie> Movies { get; set; }
     }
 }
