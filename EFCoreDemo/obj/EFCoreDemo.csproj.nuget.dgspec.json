@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oober\\source\\repos\\Console Apps\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj": {}
+    "C:\\Users\\oober\\source\\repos\\EFCore\\MS Build 2021 Highlights\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oober\\source\\repos\\Console Apps\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj": {
+    "C:\\Users\\oober\\source\\repos\\EFCore\\MS Build 2021 Highlights\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oober\\source\\repos\\Console Apps\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj",
+        "projectUniqueName": "C:\\Users\\oober\\source\\repos\\EFCore\\MS Build 2021 Highlights\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj",
         "projectName": "EFCoreDemo",
-        "projectPath": "C:\\Users\\oober\\source\\repos\\Console Apps\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj",
+        "projectPath": "C:\\Users\\oober\\source\\repos\\EFCore\\MS Build 2021 Highlights\\Build2021Demo\\EFCoreDemo\\EFCoreDemo.csproj",
         "packagesPath": "C:\\Users\\oober\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oober\\source\\repos\\Console Apps\\Build2021Demo\\EFCoreDemo\\obj\\",
+        "outputPath": "C:\\Users\\oober\\source\\repos\\EFCore\\MS Build 2021 Highlights\\Build2021Demo\\EFCoreDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\oober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -47,13 +49,13 @@
           "dependencies": {
             "microsoft.entityframeworkcore.sqlserver": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "microsoft.entityframeworkcore.tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             }
           },
           "imports": [
@@ -71,11 +73,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
->>>>>>> e679ecb0b458d64129cb7ef1fd79fe7deafdae7a
         }
       }
     }
