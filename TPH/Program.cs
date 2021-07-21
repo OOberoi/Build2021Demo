@@ -15,5 +15,11 @@ namespace TPH
             public string FirstName { get; set; }
             public string LastName { get; set; }
         }
+
+        public class Teacher : Person
+        {
+            public DateTime HireDate { get; set; }
+
+        }
     }
 }
