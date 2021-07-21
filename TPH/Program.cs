@@ -21,5 +21,10 @@ namespace TPH
             public DateTime HireDate { get; set; }
 
         }
+
+        public class Student : Person
+        {
+            public DateTime EnrollmentDate { get; set; }
+        }
     }
 }
