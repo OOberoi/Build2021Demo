@@ -13,3 +13,4 @@ C:\Users\oober\source\repos\EFCore\MS Build 2021 Highlights\Build2021Demo\TPH\ob
 C:\Users\oober\source\repos\EFCore\MS Build 2021 Highlights\Build2021Demo\TPH\obj\Debug\net5.0\ref\TPH.dll
 C:\Users\oober\source\repos\EFCore\MS Build 2021 Highlights\Build2021Demo\TPH\obj\Debug\net5.0\TPH.pdb
 C:\Users\oober\source\repos\EFCore\MS Build 2021 Highlights\Build2021Demo\TPH\obj\Debug\net5.0\TPH.genruntimeconfig.cache
+C:\Users\oober\source\repos\EFCore\MS Build 2021 Highlights\Build2021Demo\TPH\obj\Debug\net5.0\TPH.csprojAssemblyReference.cache
