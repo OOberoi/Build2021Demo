@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreDemo", "EFCoreDemo.csproj", "{EED7009C-6FEC-4704-AD1D-F869AEA1987C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPH", "..\TPH\TPH.csproj", "{48DB0E60-4383-4253-949D-6E9A01837E64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPH", "..\TPH\TPH.csproj", "{48DB0E60-4383-4253-949D-6E9A01837E64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitQuery", "..\SplitQuery\SplitQuery.csproj", "{F57DDB21-8596-49AE-96D6-05D8B527FA09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{48DB0E60-4383-4253-949D-6E9A01837E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48DB0E60-4383-4253-949D-6E9A01837E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48DB0E60-4383-4253-949D-6E9A01837E64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57DDB21-8596-49AE-96D6-05D8B527FA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57DDB21-8596-49AE-96D6-05D8B527FA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57DDB21-8596-49AE-96D6-05D8B527FA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57DDB21-8596-49AE-96D6-05D8B527FA09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
