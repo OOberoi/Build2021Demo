@@ -9,6 +9,7 @@ using static TPH.Program;
 
 namespace TPH
 {
+    //https://entityframework.net/tph
     public class TphDbContext : DbContext
     {
         public DbSet<Person> Person { get; set; }
