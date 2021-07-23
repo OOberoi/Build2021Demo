@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wHd1rMq8RM16Gwq6ctoOerqMWiGT8Ovcvge03bGoqHmRZvQutxkJ8tgym6xyKn7knb2rkDYYL98mTJyr+lH9lg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oober\\source\\repos\\Console Apps\\Build2021Demo\\TPT\\TPT.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oober\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
