@@ -118,7 +118,7 @@ C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPH\bin\Debug\net5.0\runt
 C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPH\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPH\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPH\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPH\obj\Debug\net5.0\TPH.csprojAssemblyReference.cache
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPH\obj\Debug\net5.0\TPH.csproj.AssemblyReference.cache
 C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPH\obj\Debug\net5.0\TPH.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPH\obj\Debug\net5.0\TPH.AssemblyInfoInputs.cache
 C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPH\obj\Debug\net5.0\TPH.AssemblyInfo.cs

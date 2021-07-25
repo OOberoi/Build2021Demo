@@ -26,4 +26,10 @@ namespace TPT
     {
         public DateTime HireDate { get; set; }
     }
+
+    public class Adminstrator : Person
+    {
+        public string DepartmentName { get; set; }
+        public string HireDate { get; set; }
+    }
 }
