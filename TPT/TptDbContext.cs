@@ -8,6 +8,6 @@ namespace TPT
     public class TptDbContext : DbContext
     {
         public DbSet<Person> Person { get; set; }
-       
+        public DbSet<Teacher> Teachers { get; set; }
     }
 }
