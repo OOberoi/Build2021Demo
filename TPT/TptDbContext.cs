@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.EntityFrameworkCore;
 
 namespace TPT
 {
-    class TptDbContext
+    public class TptDbContext : DbContext
     {
     }
 }
