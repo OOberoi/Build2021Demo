@@ -7,5 +7,7 @@ namespace TPT
 {
     public class TptDbContext : DbContext
     {
+        public DbSet<Person> Person { get; set; }
+       
     }
 }
