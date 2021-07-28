@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
-
 namespace EFCoreDemo
 {
     public class Program
     {
         static void Main(string[] args)
+        
         {
             using var ctx = new ManyToManyDbContext();
             ctx.Database.EnsureCreated();

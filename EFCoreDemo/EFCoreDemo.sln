@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreDemo", "EFCoreDemo.cs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPH", "..\TPH\TPH.csproj", "{48DB0E60-4383-4253-949D-6E9A01837E64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitQuery", "..\SplitQuery\SplitQuery.csproj", "{F57DDB21-8596-49AE-96D6-05D8B527FA09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SplitQuery", "..\SplitQuery\SplitQuery.csproj", "{F57DDB21-8596-49AE-96D6-05D8B527FA09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPT", "..\TPT\TPT.csproj", "{B2083619-43FB-4DBC-B92F-50D4D15B01A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F57DDB21-8596-49AE-96D6-05D8B527FA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F57DDB21-8596-49AE-96D6-05D8B527FA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F57DDB21-8596-49AE-96D6-05D8B527FA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2083619-43FB-4DBC-B92F-50D4D15B01A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2083619-43FB-4DBC-B92F-50D4D15B01A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2083619-43FB-4DBC-B92F-50D4D15B01A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2083619-43FB-4DBC-B92F-50D4D15B01A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
