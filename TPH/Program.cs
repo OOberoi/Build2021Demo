@@ -20,7 +20,6 @@ namespace TPH
     public class Teacher : Person
     {
         public DateTime HireDate { get; set; }
-
     }
 
     public class Student : Person
