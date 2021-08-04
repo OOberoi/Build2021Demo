@@ -14,6 +14,7 @@ namespace TPH
     {
         public DbSet<Person> Person { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
+        public DbSet<Student> Student { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
