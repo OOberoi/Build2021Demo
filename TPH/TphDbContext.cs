@@ -13,6 +13,8 @@ namespace TPH
     public class TphDbContext : DbContext
     {
         public DbSet<Person> Person { get; set; }
+        public DbSet<Teacher> Teachers { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
