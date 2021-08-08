@@ -15,13 +15,14 @@ namespace EFCoreDemo
             var action = new Genre() { GenreName = "Action" };
             var horror = new Genre() { GenreName = "Horror" };
             var drama = new Genre() { GenreName = "Drama" };
-            //var comedy1 = new Genre() {genreN }
+            var comedy1 = new Genre() { GenreName = "Comedy" };
 
             ctx.AddRange(
                 new Movie() { Name = "Shaw Shank Redemption", Genres = new List<Genre>() { action, comedy } },
                         new Movie { Name = "Insidious", Genres = new List<Genre>() { horror } },
                         new Movie { Name = "Forest Gump", Genres = new List<Genre>() { drama } },
-                        new Movie { Name = "The Bucket List", Genres = new List<Genre>() { comedy } });
+                        new Movie { Name = "The Bucket List", Genres = new List<Genre>() { comedy } },
+                        new Movie { Name = "City Slickers", Genres = new List<Genre>() { comedy1 } });
             ctx.SaveChanges();
         }
     }
