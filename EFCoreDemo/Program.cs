@@ -11,10 +11,11 @@ namespace EFCoreDemo
             using var ctx = new ManyToManyDbContext();
             ctx.Database.EnsureCreated();
 
-            var comedy = new Genre() { GnereName = "Comedy" };
-            var action = new Genre() { GnereName = "Action" };
-            var horror = new Genre() { GnereName = "Horror" };
-            var drama = new Genre() { GnereName = "Drama" };
+            var comedy = new Genre() { GenreName = "Comedy" };
+            var action = new Genre() { GenreName = "Action" };
+            var horror = new Genre() { GenreName = "Horror" };
+            var drama = new Genre() { GenreName = "Drama" };
+            //var comedy1 = new Genre() {genreN }
 
             ctx.AddRange(
                 new Movie() { Name = "Shaw Shank Redemption", Genres = new List<Genre>() { action, comedy } },
@@ -35,7 +36,7 @@ namespace EFCoreDemo
     public class Genre
     {
         public int GenreId { get; set; }
-        public string GnereName { get; set; }        
+        public string GenreName { get; set; }        
         public List<Movie> Movies { get; set; }
     }
 }
