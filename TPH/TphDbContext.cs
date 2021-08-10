@@ -19,7 +19,7 @@ namespace TPH
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-9AB4882 database=demo.TPH; trusted_connection=true;");
+            optionsBuilder.UseSqlServer("server=DESKTOP-9AB4882; database=demo.TPH; trusted_connection=true;");
             base.OnConfiguring(optionsBuilder); 
         }
     }
