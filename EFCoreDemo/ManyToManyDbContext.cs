@@ -15,7 +15,7 @@ namespace EFCoreDemo
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=obi-oberoi; database=demo.Build2021; trusted_connection=true;");
+            optionsBuilder.UseSqlServer("server=DESKTOP-9AB4882; database=demo.Build2021; trusted_connection=true;");
             optionsBuilder.LogTo(Console.WriteLine, LogLevel.Information);
             optionsBuilder.LogTo(Console.WriteLine, new[] {DbLoggerCategory.Database.Name}, LogLevel.Information);
         }
