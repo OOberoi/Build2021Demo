@@ -1,0 +1,15 @@
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\RawSQL\bin\Debug\net5.0\RawSQL.exe
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\RawSQL\bin\Debug\net5.0\RawSQL.deps.json
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\RawSQL\bin\Debug\net5.0\RawSQL.runtimeconfig.json
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\RawSQL\bin\Debug\net5.0\RawSQL.runtimeconfig.dev.json
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\RawSQL\bin\Debug\net5.0\RawSQL.dll
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\RawSQL\bin\Debug\net5.0\ref\RawSQL.dll
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\RawSQL\bin\Debug\net5.0\RawSQL.pdb
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\RawSQL\obj\Debug\net5.0\RawSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\RawSQL\obj\Debug\net5.0\RawSQL.AssemblyInfoInputs.cache
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\RawSQL\obj\Debug\net5.0\RawSQL.AssemblyInfo.cs
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\RawSQL\obj\Debug\net5.0\RawSQL.csproj.CoreCompileInputs.cache
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\RawSQL\obj\Debug\net5.0\RawSQL.dll
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\RawSQL\obj\Debug\net5.0\ref\RawSQL.dll
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\RawSQL\obj\Debug\net5.0\RawSQL.pdb
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\RawSQL\obj\Debug\net5.0\RawSQL.genruntimeconfig.cache
