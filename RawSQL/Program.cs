@@ -9,4 +9,8 @@ namespace RawSQL
             Console.WriteLine("Hello RAW SQL!");
         }
     }
+
+    public class Department
+    { 
+    }
 }
