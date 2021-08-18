@@ -11,5 +11,6 @@ namespace RawSQL
     public class RawSqlContext : DbContext
     {
         public DbSet<Department> Departments { get; set; }
+        public DbSet<Employee> Employees { get; set; }
     }
 }
