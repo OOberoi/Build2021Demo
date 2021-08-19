@@ -27,5 +27,6 @@ namespace RawSQL
         public decimal Salary { get; set; }
         public bool IsActive { get; set; }
         public int DepartmentId { get; set; }
+        public Department Department { get; set; }
     }
 }
