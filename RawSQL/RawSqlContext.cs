@@ -26,6 +26,7 @@ namespace RawSQL
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Department>().HasKey();
+            modelBuilder.Entity<Employee>().HasKey();
             base.OnModelCreating(modelBuilder);
         }
     }
