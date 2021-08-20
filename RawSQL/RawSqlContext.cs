@@ -27,7 +27,9 @@ namespace RawSQL
         {
             modelBuilder.Entity<Department>().HasKey();
             modelBuilder.Entity<Department>().ToTable("Department");
+
             modelBuilder.Entity<Employee>().HasKey();
+            modelBuilder.Entity<Employee>().ToTable("Employee");
             base.OnModelCreating(modelBuilder);
         }
     }
