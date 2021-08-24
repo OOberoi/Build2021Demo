@@ -25,7 +25,7 @@ namespace RawSQL
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Department>().ToTable("Department")
+            modelBuilder.Entity<Department>().ToTable("Department");
             modelBuilder.Entity<Department>()
                 .HasKey(d => d.DepartmentId)
                 .IsClustered();
