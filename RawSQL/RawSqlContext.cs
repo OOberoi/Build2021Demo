@@ -42,6 +42,11 @@ namespace RawSQL
                 .HasKey(e => e.EmployeeId)
                 .IsClustered();
 
+            modelBuilder.Entity<Employee>()
+                .Property<int>("EmployeeId");
+
+
+
             base.OnModelCreating(modelBuilder);
         }
     }
