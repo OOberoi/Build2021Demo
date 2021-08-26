@@ -30,6 +30,9 @@ namespace RawSQL
                 .HasKey(d => d.DepartmentId)
                 .IsClustered();
 
+            modelBuilder.Entity<Department>()
+                .Property<int>("DepartmentId");
+
             modelBuilder.Entity<Employee>().ToTable("Employee");
             modelBuilder.Entity<Employee>()
                 .HasKey(e => e.EmployeeId)
