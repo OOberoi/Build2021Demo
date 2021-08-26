@@ -46,10 +46,15 @@ namespace RawSQL
                 .Property<int>("EmployeeId");
 
             modelBuilder.Entity<Employee>()
-                .Property("FirstName");
+                .Property<string>("FirstName");
 
             modelBuilder.Entity<Employee>()
                 .Property("LastName");
+
+            modelBuilder.Entity<Employee>()
+                .Property<char>("Gender");
+
+
 
 
 
