@@ -60,6 +60,8 @@ namespace RawSQL
             modelBuilder.Entity<Employee>()
                 .Property<bool>("IsActive");
 
+            modelBuilder.Entity<Employee>()
+                .Property<int>("DepartmentId");
 
             base.OnModelCreating(modelBuilder);
         }
