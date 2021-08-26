@@ -33,6 +33,10 @@ namespace RawSQL
             modelBuilder.Entity<Department>()
                 .Property<int>("DepartmentId");
 
+            modelBuilder.Entity<Department>()
+                .Property<string>("Name");
+                
+
             modelBuilder.Entity<Employee>().ToTable("Employee");
             modelBuilder.Entity<Employee>()
                 .HasKey(e => e.EmployeeId)
