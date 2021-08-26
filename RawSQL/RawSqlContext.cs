@@ -45,6 +45,11 @@ namespace RawSQL
             modelBuilder.Entity<Employee>()
                 .Property<int>("EmployeeId");
 
+            modelBuilder.Entity<Employee>()
+                .Property("FirstName");
+
+
+
 
 
             base.OnModelCreating(modelBuilder);
