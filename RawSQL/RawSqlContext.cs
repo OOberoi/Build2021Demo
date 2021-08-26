@@ -57,7 +57,8 @@ namespace RawSQL
             modelBuilder.Entity<Employee>()
                 .Property<decimal>("Salary");
 
-           
+            modelBuilder.Entity<Employee>()
+                .Property<bool>("IsActive");
 
 
             base.OnModelCreating(modelBuilder);
