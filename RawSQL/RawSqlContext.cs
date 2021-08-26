@@ -54,8 +54,10 @@ namespace RawSQL
             modelBuilder.Entity<Employee>()
                 .Property<char>("Gender");
 
+            modelBuilder.Entity<Employee>()
+                .Property<decimal>("Salary");
 
-
+           
 
 
             base.OnModelCreating(modelBuilder);
