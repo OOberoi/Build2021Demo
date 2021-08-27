@@ -19,5 +19,10 @@ namespace EFCoreDemo
             optionsBuilder.LogTo(Console.WriteLine, LogLevel.Information);
             optionsBuilder.LogTo(Console.WriteLine, new[] {DbLoggerCategory.Database.Name}, LogLevel.Information);
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }
