@@ -31,6 +31,8 @@ namespace TPT
                 .Property<DateTime>("EnrollmentDate");
             modelBuilder.Entity<Person>()
                 .Property<string>("DepartmentName");
+            modelBuilder.Entity<Person>()
+                .Property<DateTime>("Teacher_HireDate");
             base.OnModelCreating(modelBuilder);
 
         }
