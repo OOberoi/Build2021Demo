@@ -29,6 +29,8 @@ namespace TPT
                 .Property<string>("LastName");
             modelBuilder.Entity<Person>()
                 .Property<DateTime>("EnrollmentDate");
+            modelBuilder.Entity<Person>()
+                .Property<string>("DepartmentName");
             base.OnModelCreating(modelBuilder);
 
         }
