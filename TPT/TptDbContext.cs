@@ -23,6 +23,8 @@ namespace TPT
         {
             modelBuilder.Entity<Person>()
                 .Property<string>("FirstName");
+            modelBuilder.Entity<Person>()
+                .Property<string>("LastName");
             base.OnModelCreating(modelBuilder);
 
         }
