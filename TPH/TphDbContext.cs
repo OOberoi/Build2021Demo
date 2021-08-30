@@ -30,7 +30,7 @@ namespace TPH
             modelBuilder.Entity<Person>()
                .Property<string>("LastName");
             modelBuilder.Entity<Person>()
-                .Property<DateTime>("Enrolldate");
+                .Property<DateTime>("EnrollmentDate");
             modelBuilder.Entity<Person>()
                 .Property<DateTime>("HireDate");
             base.OnModelCreating(modelBuilder);
