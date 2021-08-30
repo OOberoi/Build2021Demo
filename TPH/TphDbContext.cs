@@ -25,6 +25,8 @@ namespace TPH
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Person>()
+                .Property<string>("FirstName");
             base.OnModelCreating(modelBuilder);
         }
     }
