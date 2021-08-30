@@ -27,6 +27,10 @@ namespace TPH
         {
             modelBuilder.Entity<Person>()
                 .Property<string>("FirstName");
+            modelBuilder.Entity<Person>()
+               .Property<string>("LastName");
+            modelBuilder.Entity<Person>()
+                .Property("Enrolldate");
             base.OnModelCreating(modelBuilder);
         }
     }
