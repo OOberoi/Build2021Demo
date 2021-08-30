@@ -22,5 +22,10 @@ namespace TPH
             optionsBuilder.UseSqlServer("server=DESKTOP-9AB4882; database=demo.TPH; trusted_connection=true;");
             base.OnConfiguring(optionsBuilder); 
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }
