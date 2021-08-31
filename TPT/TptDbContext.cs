@@ -30,6 +30,8 @@ namespace TPT
             modelBuilder.Entity<Person>()
                 .Property<DateTime>("EnrollmentDate");
             modelBuilder.Entity<Person>()
+                .Property<string>("HireDate");
+            modelBuilder.Entity<Person>()
                 .Property<string>("DepartmentName");
             modelBuilder.Entity<Person>()
                 .Property<DateTime>("Teacher_HireDate");
