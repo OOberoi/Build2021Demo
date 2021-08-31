@@ -16,7 +16,6 @@ namespace TPT
         {
             optionsBuilder.UseSqlServer("server=DESKTOP-9AB4882; database=demo.TPT; trusted_connection=true;");
             base.OnConfiguring(optionsBuilder);
-
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
