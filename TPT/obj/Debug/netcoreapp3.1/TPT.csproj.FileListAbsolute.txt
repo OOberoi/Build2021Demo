@@ -61,4 +61,3 @@ C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPT\obj\Debug\netcoreapp3
 C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPT\obj\Debug\netcoreapp3.1\TPT.dll
 C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPT\obj\Debug\netcoreapp3.1\TPT.pdb
 C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPT\obj\Debug\netcoreapp3.1\TPT.genruntimeconfig.cache
-C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPT\obj\Debug\netcoreapp3.1\TPT.csproj.AssemblyReference.cache
