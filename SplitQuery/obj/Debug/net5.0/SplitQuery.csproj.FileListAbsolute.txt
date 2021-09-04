@@ -29,4 +29,3 @@ C:\Users\oober\source\repos\Console Apps\Build2021Demo\SplitQuery\obj\Debug\net5
 C:\Users\oober\source\repos\Console Apps\Build2021Demo\SplitQuery\obj\Debug\net5.0\ref\SplitQuery.dll
 C:\Users\oober\source\repos\Console Apps\Build2021Demo\SplitQuery\obj\Debug\net5.0\SplitQuery.pdb
 C:\Users\oober\source\repos\Console Apps\Build2021Demo\SplitQuery\obj\Debug\net5.0\SplitQuery.genruntimeconfig.cache
-C:\Users\oober\source\repos\Console Apps\Build2021Demo\SplitQuery\obj\Debug\net5.0\SplitQuery.csproj.AssemblyReference.cache

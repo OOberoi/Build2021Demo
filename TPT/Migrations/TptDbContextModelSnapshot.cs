@@ -21,7 +21,7 @@ namespace TPT.Migrations
 
             modelBuilder.Entity("TPT.Person", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("PersonId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -39,11 +39,8 @@ namespace TPT.Migrations
                     b.Property<string>("FirstName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("HireDate")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("ID")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("HireDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
@@ -51,7 +48,7 @@ namespace TPT.Migrations
                     b.Property<DateTime>("Teacher_HireDate")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("Id");
+                    b.HasKey("PersonId");
 
                     b.ToTable("Person");
 
