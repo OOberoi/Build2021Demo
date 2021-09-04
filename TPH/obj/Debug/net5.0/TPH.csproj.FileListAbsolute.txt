@@ -62,3 +62,4 @@ C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPH\obj\Debug\net5.0\TPH.
 C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPH\obj\Debug\net5.0\ref\TPH.dll
 C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPH\obj\Debug\net5.0\TPH.pdb
 C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPH\obj\Debug\net5.0\TPH.genruntimeconfig.cache
+C:\Users\oober\source\repos\Console Apps\Build2021Demo\TPH\obj\Debug\net5.0\TPH.csproj.AssemblyReference.cache
