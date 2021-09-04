@@ -26,15 +26,30 @@ namespace TPT.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("DepartmentName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Discriminator")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("EnrollmentDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("FirstName")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("HireDate")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ID")
+                        .HasColumnType("int");
+
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Teacher_HireDate")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
@@ -47,12 +62,6 @@ namespace TPT.Migrations
                 {
                     b.HasBaseType("TPT.Person");
 
-                    b.Property<string>("DepartmentName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("HireDate")
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasDiscriminator().HasValue("Adminstrator");
                 });
 
@@ -60,19 +69,12 @@ namespace TPT.Migrations
                 {
                     b.HasBaseType("TPT.Person");
 
-                    b.Property<DateTime>("EnrollmentDate")
-                        .HasColumnType("datetime2");
-
                     b.HasDiscriminator().HasValue("Student");
                 });
 
             modelBuilder.Entity("TPT.Teacher", b =>
                 {
                     b.HasBaseType("TPT.Person");
-
-                    b.Property<DateTime>("HireDate")
-                        .HasColumnType("datetime2")
-                        .HasColumnName("Teacher_HireDate");
 
                     b.HasDiscriminator().HasValue("Teacher");
                 });
