@@ -21,7 +21,7 @@ namespace TPT
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Person>()
-                .Property<int>("ID");
+                .Property<int>("PersonId");
             modelBuilder.Entity<Person>()
                 .Property<string>("FirstName");
             modelBuilder.Entity<Person>()
