@@ -14,7 +14,7 @@ namespace TPT
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-9AB4882; database=demo.TPT_New; trusted_connection=true;");
+            optionsBuilder.UseSqlServer("server=DESKTOP-9AB4882; database=demo.TPT; trusted_connection=true;");
             base.OnConfiguring(optionsBuilder);
         }
 
